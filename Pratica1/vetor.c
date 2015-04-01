@@ -47,6 +47,6 @@ void TroqueVetor(vetor *v1, vetor *v2){
     for(i = 0; i<v1->tamanho; i++){
         temp = v1->elementos[i];
         v1->elementos[i] = v2->elementos[i];
-        v2->elementos[i] = v1->elementos[i];
+        v2->elementos[i] = temp;
     }
 }
