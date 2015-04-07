@@ -1,3 +1,14 @@
+// Grupo: Alan Turing
+
+// Integrante #1: Alexandre Vieira dos Santos
+
+// Integrante #2: Diogo Bernini Milagres
+
+// Integrante #3: João Vitor Almeida Alves
+
+// Prática: 02
+
+// Exercício: -
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
@@ -67,7 +78,8 @@ int main(){
     total = calcula(t2, t1);
     printf("\nMetodo #3 Fibonacci %d = %d\nDuracao de %.3lf seg.\n\n", n, fb, total);
 
-
+// Pode se concluir que há várias maneiras diferentes de implementar um algoritmo, e que, se utilizando da análise de algoritmo é possível otimizá-lo da melhor maneira possível.
+// Quando o algoritmo é iterativo não há diferença, porém quando ele é recursivo ele utiliza-se de mais memória à cada passo recursivo.
 
     return 0;
 }
