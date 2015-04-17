@@ -1,3 +1,14 @@
+// Grupo: Ada Lovelace
+
+// Integrante #1: Diogo Bernini Milagres
+
+// Integrante #2: João Vitor Almeida
+
+// Integrante #3: Alexandre Vieira
+
+// Prática: 01
+
+// Exercício: 1
 #include <stdio.h>
 #include <stdlib.h>
 #include "main.h"
