@@ -31,7 +31,13 @@ void alocaOrdenaDesaloca(tamanhoVetor)
 
 int main()
 {
+    FILE *fp;
+      if((fp=fopen("tempo_ex.txt", "wb"))==NULL) {
+        printf("Cannot open file.\n");
+        exit(1);
+      }
     int i,j;
+    fprintf(fp,"VectorSize,ElapsedTime\n");
     clock_t t1, t2;
     for(i=1; i<10000; i++)
     {
@@ -44,7 +50,8 @@ int main()
     //printf("alocando pela %d vez\n",i);
     t2 = clock();
     float diff = (((float)t2 - (float)t1) / 1000000.0F ) * 1000;
-    printf("\nVetor tamanho (%d): %fs",i,diff);
+    fprintf(fp,"%d,%fs\n",i,diff/1000);
+    printf("\n%d",i);
     }
     return 0;
 }
