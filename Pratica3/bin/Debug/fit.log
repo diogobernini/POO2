@@ -132,3 +132,138 @@ fitted parameters initialized with current variable values
 
 BREAK:          Undefined value during function evaluation
 
+
+
+*******************************************************************************
+Thu Apr 30 21:03:19 2015
+
+
+FIT:    data read from 'C:\Users\DiogoBernini\OneDrive\UFU\POO2\POO2\Pratica3\bin\Debug\tempo_ex.dat'
+        format = z
+        #datapoints = 9999
+        residuals are weighted equally (unit weight)
+
+function used for fitting: t(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 9999              delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-005
+ lambda	  : 36648.7
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 625.266
+rel. change during last iteration : -4.89465e-009
+
+degrees of freedom    (FIT_NDF)                        : 9997
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.250091
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0625454
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 1.00215          +/- 1.152e-005   (0.00115%)
+b               = 0.999775         +/- 1.288e-006   (0.0001289%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.999  1.000 
+
+
+*******************************************************************************
+Thu Apr 30 21:05:02 2015
+
+
+FIT:    data read from 'C:\Users\DiogoBernini\OneDrive\UFU\POO2\POO2\Pratica3\bin\Debug\tempo_ex.dat'
+        format = z
+        #datapoints = 9999
+        residuals are weighted equally (unit weight)
+
+function used for fitting: t(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 3.33283e+011      delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-005
+ lambda	  : 0.708432
+
+initial set of free parameter values
+
+a               = 1.00215
+b               = 0.999775
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 8.33083e+010
+rel. change during last iteration : -1.73578e-008
+
+degrees of freedom    (FIT_NDF)                        : 9997
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2886.75
+variance of residuals (reduced chisquare) = WSSR/ndf   : 8.33333e+006
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 616.513          +/- 2.261e+015   (3.667e+014%)
+b               = 3327.99          +/- 9.902e+016   (2.975e+015%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -1.000  1.000 
+
+
+*******************************************************************************
+Thu Apr 30 21:05:12 2015
+
+
+FIT:    data read from 'C:\Users\DiogoBernini\OneDrive\UFU\POO2\POO2\Pratica3\bin\Debug\tempo_ex.dat'
+        format = z
+        #datapoints = 9999
+        residuals are weighted equally (unit weight)
+
+function used for fitting: t(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : nan               delta(WSSR)/WSSR   : 0
+ delta(WSSR) : nan               limit for stopping : 1e-005
+ lambda	  : nan
+
+initial set of free parameter values
+
+a               = 616.513
+b               = 3327.99
+BREAK:          Undefined value during function evaluation
+
+
+
+*******************************************************************************
+Thu Apr 30 21:05:21 2015
+
+
+FIT:    data read from 'C:\Users\DiogoBernini\OneDrive\UFU\POO2\POO2\Pratica3\bin\Debug\tempo_ex.dat'
+        format = z
+        #datapoints = 9999
+        residuals are weighted equally (unit weight)
+
+function used for fitting: t(x)
+fitted parameters initialized with current variable values
+
+BREAK:          Undefined value during function evaluation
+
